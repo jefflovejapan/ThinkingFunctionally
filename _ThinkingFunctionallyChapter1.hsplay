@@ -1,0 +1,12 @@
+-- Haskell Playground 1.0
+double 5
+
+map (double . double) [2, 4, 4, 3]
+
+sum [5, 6, 7]
+
+(double . sum') [2, 4, 5]
+
+disjoint [1, 2, 6] [2, 3, 5]
+
+disjoint [1] [2]
